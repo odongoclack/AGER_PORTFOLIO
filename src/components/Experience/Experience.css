@@ -1,0 +1,66 @@
+.experience-section {
+    padding: 50px 20px;
+    background-color:#777;
+    text-align: center;
+    width: 900px;
+    border-radius: 35px;
+  }
+  
+  .section-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #222;
+    text-align: left;
+  }
+  
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  .timeline-item {
+    background: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 60%;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  .timeline-content h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .timeline-content p {
+    color: #666;
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .timeline-content span {
+    font-size: 0.9rem;
+    color: #777;
+  }
+  
+  .resume-button {
+    display: inline-block;
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 35px;
+    font-size: 2.1rem;
+    margin-top: 30px;
+    transition: background 0.3s ease;
+  }
+  
+  .resume-button:hover {
+    background: #1a4642;
+  }
