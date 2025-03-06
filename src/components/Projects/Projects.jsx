@@ -2,11 +2,11 @@ import React from "react";
 import "./Projects.css";
 
 const projects = [
-  { image: "/assets/komikult-ffb4680c.png", title: "Leaderboard" },
-  { image: "/assets/leaderboard.png", title: "E-commerce Store" },
-  { image: "/assets/math-magicians.png", title: "Movie App" },
-  { image: "/assets/movie-metro.png", title: "Festival Site" },
-  { image: "/assets/nyeusi.png", title: "AI Blog" },
+  { image: "/assets/komikult-ffb4680c (1).png", title: "Leaderboard" },
+  { image: "/assets/leaderboard-34689c55.png", title: "E-commerce Store" },
+  { image: "assets/maths.png", title: "AI Blog" },
+  { image: "/assets/movie-metro-dc697e9e.png", title: "Movie App" },
+  { image: "/assets/nyeusi-4fb337c4.png", title: "Festival site" },
 ];
 
 const Projects = () => {
