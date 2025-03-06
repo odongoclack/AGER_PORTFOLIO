@@ -1,31 +1,30 @@
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import "./Testimonials.css";
-import testimonialImage from "/src/images/images.jpeg";
 
 const testimonials = [
   {
     name: "Sarah Thompson",
     position: "FutureTech Solutions",
     text: "I was impressed by the engineer’s ability to tackle complex challenges in our industry. Their AI solutions revolutionized how we approach problem-solving.",
-    image: testimonialImage, 
+    image: "/images/images.jpeg", // ✅ Corrected path for Vercel
   },
   {
     name: "Michael Chen",
     position: "InnovateAI",
     text: "The AI solution provided streamlined our automation processes beyond expectations. Their expertise in scalable AI systems gave us a competitive edge.",
-    image: testimonialImage,
+    image: "/images/images.jpeg",
   },
   {
     name: "Emily Johnson",
     position: "TechCorp Inc.",
-    text: "Working with AGER, was a game-changer. His deep understanding of ML algorithms helped us implement solutions that improved our data analysis.",
-    image: testimonialImage,
+    text: "Working with AGER was a game-changer. His deep understanding of ML algorithms helped us implement solutions that improved our data analysis.",
+    image: "/images/images.jpeg",
   },
 ];
 
 const Testimonials = () => {
-    console.log(motion)
+  console.log(motion);
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
@@ -48,7 +47,11 @@ const Testimonials = () => {
         <div className="stars">⭐⭐⭐⭐⭐</div>
         <p className="testimonial-text">"{testimonials[index].text}"</p>
         <div className="testimonial-footer">
-          <img src={testimonials[index].image} alt={testimonials[index].name} className="testimonial-img" />
+          <img
+            src={testimonials[index].image}
+            alt={testimonials[index].name}
+            className="testimonial-img"
+          />
           <div>
             <strong>{testimonials[index].name}</strong>
             <br />

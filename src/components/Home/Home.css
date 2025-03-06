@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url('../../images/nairobi-87db6c03.png') no-repeat center center/cover;
+    background: url("/images/nairobi-87db6c03.png") no-repeat center center/cover;
     position: relative;
 }
 

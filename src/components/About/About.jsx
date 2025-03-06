@@ -1,24 +1,20 @@
 import React from "react";
 import { motion } from "framer-motion";
 import "./About.css";
-import mlopsImg from "../../images/mlops-loop-en.jpg";
-import customMLImg from "../../images/kafka-98d8a08e.png";
-import dataPipelineImg from "../../images/kafka-98d8a08e.png";
-import dataStrategyImg from "../../images/pineapple-21fd8460.png";
-import performanceImg from "../../images/github-3b4e1609.png";
-import helmIcon from "../../images/helm-b5a17739.png";
-import kubernetesIcon from "../../images/airflow-537ffb5f.png";
-import postgresIcon from "../../images/langchain-0b53b94b.png";
 
 const skills = [
-  { img: mlopsImg, title: "MLOps and Model Deployment" },
-  { img: customMLImg, title: "Custom Machine Learning Solutions" },
-  { img: dataPipelineImg, title: "End-to-End Data Pipeline Development" },
-  { img: dataStrategyImg, title: "Data Strategy Consulting" },
-  { img: performanceImg, title: "Performance Optimization and Tuning" },
+  { img: "/images/mlops-loop-en.jpg", title: "MLOps and Model Deployment" },
+  { img: "/images/kafka-98d8a08e.png", title: "Custom Machine Learning Solutions" },
+  { img: "/images/kafka-98d8a08e.png", title: "End-to-End Data Pipeline Development" },
+  { img: "/images/pineapple-21fd8460.png", title: "Data Strategy Consulting" },
+  { img: "/images/github-3b4e1609.png", title: "Performance Optimization and Tuning" },
 ];
 
-const technologies = [helmIcon, kubernetesIcon, postgresIcon];
+const technologies = [
+  "/images/helm-b5a17739.png",
+  "/images/airflow-537ffb5f.png",
+  "/images/langchain-0b53b94b.png"
+];
 
 const About = () => {
     console.log(motion)
