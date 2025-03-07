@@ -1,16 +1,42 @@
-*{
+
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: sans-serif;
+  max-width: 100%;
+  overflow-x: hidden; 
 }
-.container{
+
+
+.container {
   display: flex;
   width: 100vw;
   min-height: 100vh;
-background:url("../images/nairobi-87db6c03.png");
-transition: 0.5s;
+  background: url("../images/IT7.jpeg") no-repeat center center/cover;
+  transition: 0.5s;
+  padding: 20px; 
 }
-.container.dark{
-  background: #222;
+
+
+.container.dark {
+  background: #222 !important;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+      flex-direction: column; 
+      background-size: contain; 
+      padding: 10px;
+  }
+
+  img {
+      max-width: 100%;
+      height: auto; 
+  }
+
+  h1, p {
+      font-size: clamp(16px, 5vw, 24px); 
+  }
 }

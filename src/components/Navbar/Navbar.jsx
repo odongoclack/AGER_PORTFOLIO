@@ -2,10 +2,7 @@ import React from 'react';
 import './Navbar.css';
 import { Link } from 'react-router-dom';
 
-function Navbar({ theme, setTheme }) {
-  const toggle_mode = () => {
-    setTheme(theme === 'light' ? 'dark' : 'light');
-  };
+function Navbar({ theme}) {
 
   return (
     <div className='navbar'>
@@ -26,12 +23,7 @@ function Navbar({ theme, setTheme }) {
         <img src={theme === 'light' ? "/assets/search-w.png" : "/assets/search-b.png"} alt="Search Icon" />
       </div>
 
-      <img 
-        onClick={toggle_mode} 
-        src={theme === 'light' ? "/assets/night.png" : "/assets/day.png"}  
-        alt="Toggle Theme"  
-        className='toggle-icon' 
-      />
+
     </div>
   );
 }

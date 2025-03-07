@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100vh;
-    background: url("/images/nairobi-87db6c03.png") no-repeat center center/cover;
+    background: url("/images/IT6.jpeg") ;
     position: relative;
 }
 
@@ -20,11 +20,12 @@ body {
 /* Home Container */
 .home-container {
     display: flex;
+
     border-radius: 45px;
     align-items: center;
     justify-content: space-between;
     min-height: 50vh;
-    width: 100%;
+    width: 90%;
     padding: 10% 8%; 
     box-sizing: border-box;/* Adjusted padding */
     position: relative;/* Ensure responsiveness */
