@@ -1,12 +1,13 @@
 .about-container {
     padding: 5% 10%;
-    background: #f8f8f8;
+    background:url(images/IT2.jpg);
+    padding-top: 80px;
   }
   
   .about-intro h4 {
     font-size: 0.9rem;
     font-weight: 600;
-    color: gray;
+    color:black;
   }
   
   .about-intro h2 {
@@ -17,7 +18,8 @@
   
   .about-intro p {
     font-size: 1.1rem;
-    color: #444;
+    color:white;
+    background: #222;
     margin-top: 10px;
   }
   
