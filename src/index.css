@@ -61,6 +61,7 @@
   .container {
     background-size: contain;
     background-position: top;
+    background: url("../images/IT7.jpeg") no-repeat center center/cover;
     padding: 10px;
   }
 
@@ -79,8 +80,8 @@
 
   /* Adjust Profile Image */
   .profile-img {
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
   }
 
   /* Text Styling */
